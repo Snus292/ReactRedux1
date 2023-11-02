@@ -2,7 +2,14 @@ import React from "react";
 import { createStore } from "redux";
 import { createRoot } from 'react-dom/client';
 
+// начиная с версии React 18, метод ReactDOM.render больше не 
+// поддерживается, и вместо него рекомендуется использовать 
+// метод createRoot
 
+
+// начиная с некоторых версий React, метод createRoot больше не 
+// поддерживается в react-dom, и вместо него следует 
+// импортировать из react-dom/client.
 
 const initialState = { value: 0 };
 
